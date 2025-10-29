@@ -1,7 +1,7 @@
 # django-static-tutorial
 django static tutorial in production mode
 
-Got it ✅ — you want to **set up Django static files for production on Windows**, likely for **local deployment or desktop server use** (without Linux Nginx setup).
+**set up Django static files for production on Windows**, likely for **local deployment or desktop server use** (without Linux Nginx setup).
 
 Here’s a **clean, working setup** specifically for **Windows production use** — for example, when using `runserver`, or packaging with **PyInstaller**, **NSSM**, or **XAMPP/Apache**.
 
@@ -180,5 +180,3 @@ If you see the file load — your setup is working perfectly ✅
 | Wrong slashes in paths                | Always use `BASE_DIR / "folder"` (Pathlib handles Windows paths correctly) |
 
 ---
-
-Would you like me to show a **ready-made settings.py** example (production-ready for Windows with Whitenoise)? It’ll work even if you turn off `DEBUG`.
